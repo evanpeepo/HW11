@@ -31,4 +31,6 @@ ggplot(sim_data, aes(vwc_percent, growth_mm, color = species)) +
   geom_smooth(method = 'lm')
 
 write.csv(sim_data, 'pinyon_juniper_growth.csv', row.names = FALSE)
+#Researchers monitored yearly diameter growth (mm) for 50 pinyon and 50 juniper across 
+#different soil moistures (measured as volumetric water content, %). 
 #How does tree growth (y) in response to soil moisture (x) compare between pinyon and juniper trees?
